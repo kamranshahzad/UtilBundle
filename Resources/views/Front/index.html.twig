@@ -1,0 +1,10 @@
+{% extends '::base.html.twig' %}
+
+{% block body %}
+
+	<div>
+        <a href="{{path('logout')}}">Logout</a> |
+        <a href="{{path('account_changepassword')}}">Change Password</a>
+    </div>
+
+{% endblock %}

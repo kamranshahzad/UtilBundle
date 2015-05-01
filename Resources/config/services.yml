@@ -1,0 +1,9 @@
+parameters:
+  kamran.helper.class: Kamran\UtilBundle\Base\Helper
+
+services:
+
+  base.helper:
+    class: %kamran.helper.class%
+    arguments:
+          - "@service_container"

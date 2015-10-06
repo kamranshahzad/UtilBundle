@@ -1,0 +1,22 @@
+{
+    "name": "kamran/util-bundle",
+    "type": "symfony-bundle",
+    "description": "Helper functions to build symfony2 applications",
+    "keywords": [ "util", "helper", "bundle" ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kamran Shahzad",
+            "email": "bleak.unseen@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4",
+        "sensio/framework-extra-bundle": "~3.0,>=3.0.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "UtilBundle\\": ""
+        }
+    }
+}
